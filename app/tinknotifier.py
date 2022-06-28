@@ -4,11 +4,11 @@ from time import sleep
 
 import requests
 
-import tgworker
-from misc.consts import NSK_REQUEST_JSON, TINKOFF_URL
-from setup_logger import logger
+import app.tgworker as tgworker
+from app.misc.consts import NSK_REQUEST_JSON, TINKOFF_URL
+from app.setup_logger import logger
 
-from ..config import CLIENT_TELEGRAM_ID, CURRENCY_TO_SEARCH
+from config import CLIENT_TELEGRAM_ID, CURRENCY_TO_SEARCH
 
 
 class TinkoffNotifier:

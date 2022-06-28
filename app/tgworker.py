@@ -2,7 +2,8 @@ import logging
 
 import requests
 
-from misc.consts import MAIN_LOGGER_NAME, TELEGRAM_ACCESS_TOKEN
+from app.misc.consts import MAIN_LOGGER_NAME
+from config import TELEGRAM_ACCESS_TOKEN
 
 logger = logging.getLogger(f'{MAIN_LOGGER_NAME}.tworker')
 
