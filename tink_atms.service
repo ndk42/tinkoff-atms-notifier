@@ -1,0 +1,12 @@
+[Unit]
+Description=Check tink atms periodically
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/tinkoff_atms_notifier/main.py
+TimeoutStartSec=0
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
