@@ -1,5 +1,5 @@
 '''Make config.py file in current folder
-to with these attributes'''
+with these attributes'''
 
 TELEGRAM_ACCESS_TOKEN = '5000000000:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
 CLIENT_TELEGRAM_ID = 200000000
